@@ -28,7 +28,7 @@ app.get("/luckies", (req,res) => {
 
 
 
-app.post("/luckies",async(req,res) => {
+app.post("/",async(req,res) => {
         try{
             const info = new Lucky({
                 name:req.body.name,
